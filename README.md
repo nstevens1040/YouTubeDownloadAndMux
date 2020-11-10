@@ -14,4 +14,4 @@ pip install -r requirements.txt
 ```
 python YouTubeDownloadAndMux.py "<string youtube link>"
 ```
-Once you strike enter, the script will download both the highest quality audio and the highest quality video separately and then it will mux then together. Useful information (where the output file is being saved, etc.) is printed to the console window.  
+Once you strike enter, the script will download both the highest quality audio and the highest quality video separately and then it will mux them together. Useful information (where the output file is being saved, etc.) is printed to the console window.  
