@@ -10,3 +10,9 @@ git clone "https://github.com/nstevens1040/YouTubeDownloadAndMux.git"
 cd YouTubeDownloadAndMux
 pip install -r requirements.txt
 ```  
+# Usage  
+```
+python YouTubeDownloadAndMux.py "<string youtube link>"
+```
+Once you strike enter, the script will download both the highest quality audio and the highest quality video separately and then it will mux then together.  
+Useful information is printed to the console window.  
