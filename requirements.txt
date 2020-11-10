@@ -4,3 +4,4 @@ colorama
 tqdm
 ffmpeg
 sanitize-filename
+ffprobe-python
