@@ -187,7 +187,7 @@ v_selection = select_bestvideo(info)
 if sys.platform == 'win32':
     homefolder = os.environ['userprofile'].replace("\\","/")
 else:
-    homefolder = os.environ['home']
+    homefolder = os.environ.get("HOME")
 
 audio_filename = homefolder + "/Desktop/temp_audio." + a_selection['ext']
 video_filename = homefolder + "/Desktop/temp_video." + v_selection['ext']
