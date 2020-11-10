@@ -1,0 +1,6 @@
+youtube_dl
+requests
+colorama
+tqdm
+ffmpeg
+sanitize-filename
