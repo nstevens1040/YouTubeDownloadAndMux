@@ -3,5 +3,7 @@ requests
 colorama
 tqdm
 ffmpeg
+ffprobe
 sanitize-filename
 ffprobe-python
+ffmpeg-python
