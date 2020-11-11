@@ -298,7 +298,6 @@ try:
         .output(outfile)
         .global_args(
             "-hide_banner",
-            "-hwaccel","cuda",
             "-c:v",vdec,
             "-i",video_filename,
             "-c:v", "h264_nvenc",
