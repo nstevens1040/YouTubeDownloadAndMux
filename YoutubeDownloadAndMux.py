@@ -253,11 +253,11 @@ if adec == 'opus':
         print(Fore.WHITE + "        Transcoding succeeded!")
 
 if vdec == 'vp9':
-    temp_video = homefolder + "/Desktop/intermediate_video_.m4a"
+    temp_video = homefolder + "/Desktop/intermediate_video_.mp4"
     print(Fore.GREEN + "Video codec is:", end='')
     for i in list(range(0,(32 - len("Video codec is: ")))):
         print(" ",end='')
-    print(Fore.YELLOW + adec)
+    print(Fore.YELLOW + vdec)
     print(Fore.WHITE + "    Need to transcode video from " + vdec + " to H.264 (.mp4)")
     print(Fore.GREEN + "    Intermediate video file:", end='')
     for i in list(range(0,(32 - len("    Intermediate video file: ")))):
